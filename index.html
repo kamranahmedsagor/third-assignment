@@ -1,0 +1,172 @@
+<!doctype html>
+<html data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.22/dist/full.min.css" rel="stylesheet" type="text/css" />
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+<script>
+
+tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          },
+          fontFamily: {
+            manrope: 'Manrope',
+          }
+        }
+      }
+    }
+</script>
+
+</head>
+<body class="font-manrope">
+ <header> 
+  <nav class="navbar w-11/12 mx-auto">
+    <div class="navbar-start">
+        <div class="bg-lime-600 h-6 w-6 rounded  mx-4 flex p-1">
+          <i class="fa-solid fa-arrow-right"></i>
+        </div>
+        <h2 class="text-lg font-bold">Rinterio</h2>
+    </div>
+    <div class="navbar-center hidden lg:flex  ">
+        <ul class="menu menu-horizontal px-1 flex items-center gap-5 text-lg font-medium">
+            <li class="hover:text-primary transition-colors ease-in-out duration-300">
+                <a href="#">Home</a>
+            </li>
+            <li class="hover:text-primary transition-colors ease-in-out duration-300">
+                <a href="#">Everything</a>
+            </li>
+            <li class="hover:text-primary transition-colors ease-in-out duration-300">
+                <a href="#">Groceries</a>
+            </li>
+            <li class="hover:text-primary transition-colors ease-in-out duration-300">
+                <a href="#">About</a>
+            </li>
+            <li class="hover:text-primary transition-colors ease-in-out duration-300">
+                <a href="#">Contact</a>
+            </li>
+        </ul>
+    </div>
+    <div class="navbar-end gap-5 items-center ">
+        <div class="flex gap-5 text-lg ">
+            <button class="flex items-center gap-2 font-semibold text-accent  ">
+               
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+                <div class="bg-lime-600 h-8 w-32 rounded flex">
+                  <div class="bg-black h-6 w-6 rounded  mx-4 flex p-2 inline-block">
+                    
+                    <i class="fa-solid fa-arrow-right"></i>
+                  </div>
+                  <h6 class="text-xs text-black">Book Consult</h6>
+
+                </div>
+           
+        </div>
+        <div class="dropdown ">
+            <div tabindex="0" role="button" class="btn btn-ghost bg-primary text-lg hidden">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            <ul tabindex="0"
+                class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 right-0 p-2 shadow text-lg font-medium gap-5">
+                <li class="hover:text-primary transition-colors ease-in-out duration-300">
+                    <a href="#">Home</a>
+                </li>
+                <li class="hover:text-primary transition-colors ease-in-out duration-300">
+                    <a href="#">Everything</a>
+                </li>
+                <li class="hover:text-primary transition-colors ease-in-out duration-300">
+                    <a href="#">Groceries</a>
+                </li>
+                <li class="hover:text-primary transition-colors ease-in-out duration-300">
+                    <a href="#">About</a>
+                </li>
+                <li class="hover:text-primary transition-colors ease-in-out duration-300">
+                    <a href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+ </header>
+
+
+ <main>
+
+    <!-- banner section start  -->
+ <section>
+
+    <div class="flex justify-center">
+        <img src="assets/banner.png" alt="">
+
+    </div>
+    <div class=" flex flex-col justify-center items-center text-center gap-16 ">
+        <h1 class="font-bold text-6xl">A barn house of this design has a <br> striking appearance</h1>
+        <p>The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal <br> accents, and large windows that flood the space with natural light.</p>
+
+        <div class="bg-lime-600 h-8 w-32 rounded-lg flex text-center items-center p-2">
+            <div class="bg-black h-6 w-6 rounded-full  mx-auto flex justify-center">
+              
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+            <h6 class="text-xs text-black">View Details</h6>
+
+          </div>
+    </div>
+ </section> 
+
+ <!-- about us section -->
+
+ <section class="  w-10/12 bg-slate-100 rounded-lg mt-20 mx-auto lg:flex gap-5 lg:p-20">
+    <div>
+        <div class="bg-slate-200 h-8 w-32 rounded-lg flex text-center items-center p-2">
+            <div class=" h-6 w-6 rounded-full  mx-auto flex justify-center">
+              
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+            <h6 class="text-xs text-black">View Details</h6>
+    
+          </div>
+          <h1 class="font-bold text-4xl my-4">We design thoughtful, <br> liveable spaces</h1>
+          <p>The barn house captivates with its blend of rustic charm and <br>
+            modern sophistication, featuring weathered wood, sleek metal accents.</p>
+    
+            <div class="flex  text-center items-center my-4 bg-slate-200 p-4 rounded-lg gap-5">
+                <img src="assets/commercial.png" alt="">
+                <div>
+                    <h1 class="font-bold text-xl">Commercial</h1>
+                    <p>The barn house captivates with its blend <br> of rustic charm and modern.</p>
+                </div>
+            </div>
+            <div class="flex  text-center items-center my-4 bg-slate-200 p-4 rounded-lg gap-5">
+                <img src="assets/residential.png" alt="">
+                <div>
+                    <h1 class="font-bold text-xl">residential</h1>
+                    <p>The barn house captivates with its blend <br> of rustic charm and modern.</p>
+                </div>
+            </div>
+    </div>
+
+        <div>
+            <img src="assets/Rectangle.png" alt="">
+        </div>
+
+ </section>
+
+
+ </main>
+</body>
+</html>
